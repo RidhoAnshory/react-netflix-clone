@@ -3,7 +3,7 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 
 // 1) when seeding the database you'll have to uncomment this!
-import { seedDatabase } from '../seeding';
+// import { seedDatabase } from '../seeding';
 
 const config = {
   apiKey: "AIzaSyB2hglxp1f8SgLo8OiMhPwHyOTWWrjsUF8",
@@ -17,7 +17,8 @@ const config = {
 
 const firebase = Firebase.initializeApp(config);
 // 2) when seeding the database you'll have to uncomment this!
-seedDatabase(firebase);
+// seedDatabase(firebase);
 // 3) once you have populated the database (only run once!), re-comment this so you don't get duplicate data
 
 export { firebase };
+
