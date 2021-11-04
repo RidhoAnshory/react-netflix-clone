@@ -7,7 +7,7 @@ export const Container = styled.div`
     margin-top: 20px;
     flex-wrap: wrap;
     
-    @media (max-width: 1000px) {
+    @media (max-width: 800px) {
         flex-direction: column;
         align-items: center;
     }
@@ -39,7 +39,7 @@ export const Button = styled.button`
         background: #f40612;
     }
 
-    @media (max-width: 1000px){
+    @media (max-width: 800px){
         height: 50px;
         font-size: 16px;
         margin-top: 20px;
