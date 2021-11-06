@@ -17,9 +17,10 @@ export default function useContent(target) {
         }));
 
         setContent(allContent);
+      })
+      .catch((error) => {
+        console.log(error);
       });
-    return () => {
-      cleanup;
-    };
-  }, [input]);
+  }, []);
+  return { [target]: content };
 }

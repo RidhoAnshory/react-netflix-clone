@@ -17,7 +17,9 @@ export default function useAuthListener() {
         setUser(null);
       }
     });
+
     return () => listener();
   }, []);
+
   return { user };
 }
